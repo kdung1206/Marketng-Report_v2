@@ -6,6 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    base: '/Marketng-Report_v2/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
